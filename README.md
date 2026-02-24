@@ -49,7 +49,7 @@ This project demonstrates authentication, API integration, search, sorting, pagi
 Username: admin
 Password: admin123
 ## how to use 
-opem terminal and than write  ( npm run dev ) 
+open terminal and than write  ( npm run dev ) 
 than you see this link ( http://localhost:3000/ )
 after following this link you have to manually write a URL
 in your adress bar  - http://localhost:3000/login 
