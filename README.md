@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Admin Dashboard
 
-## Getting Started
+A modern admin dashboard built using **Next.js (App Router)**, **Material UI (MUI)**, and **Zustand** for state management.
 
-First, run the development server:
+This project demonstrates authentication, API integration, search, sorting, pagination, and clean UI design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔐 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Authentication
+- Admin login system
+- Protected dashboard routes
+- Token-based state using Zustand
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Users Module
+- Fetch users from DummyJSON API
+- Search users
+- Sort by Name, Email, Gender, Company
+- Pagination
+- User detail page
 
-## Learn More
+### Products Module
+- Fetch products from DummyJSON API
+- Search products
+- Filter by category
+- Pagination
+- Product detail page
+- Image gallery
 
-To learn more about Next.js, take a look at the following resources:
+### UI
+- Built using Material UI (MUI)
+- Dark theme styling
+- Clean and responsive design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+- Next.js 14+ (App Router)
+- React
+- Material UI (MUI)
+- Zustand
+- DummyJSON API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔑 Login Credentials
+Username: admin
+Password: admin123
